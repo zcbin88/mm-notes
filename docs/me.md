@@ -21,7 +21,7 @@ aside: false
 **About:**
 
 - [茂茂主页](https://fe-mm.com)
-- [茂茂物语](https://notes.fe-mm.com) 茂茂的成长之路
+- [青色烟雨](https://notes.fe-mm.com) 茂茂的成长之路
 - [前端知识图谱](https://xmind.fe-mm.com) 用思维导图的方式总结个人所学知识
 - [日常笔记](https://github.com/maomao1996/daily-notes) 零零散散啥都记系列（不定期更新）
 - [mmPlayer](https://netease-music.fe-mm.com) 基于 Vue2 的在线音乐播放器

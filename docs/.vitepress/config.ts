@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: '青色烟雨',
+  description: ' ',
   head,
 
   lastUpdated: true,
@@ -41,11 +41,11 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/zcbin88/mm-notes' }],
 
     footer: {
-      message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present maomao',
+      message: 'ICP备案号:<a href="https://beian.miit.gov.cn/">豫ICP备19044382号-2</a>',
+      copyright: 'Copyright © 2023-present ZCB',
     },
 
     lastUpdated: {

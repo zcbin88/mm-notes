@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂物语
-  text: Mao Mao 的成长之路
-  tagline: 知识是进步的阶梯，争取每天都有知识点更新
+  name: 青色烟雨
+  text:
+  tagline: 深耕自己，是人生最大的远见！
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: 青色烟雨
   actions:
     - text: 前端物语
       link: /fe/es6/
@@ -74,14 +74,14 @@ import MFriends from './home/MFriends.vue'
 
 **本站信息**：
 
-- 网站名称: **茂茂物语**
+- 网站名称: **青色烟雨**
 - 网站描述: **茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
 - 网站地址：**<https://notes.fe-mm.com>**
 - 网站图标：**<https://notes.fe-mm.com/logo.png>**
 
 ```json
 {
-  "title": "茂茂物语",
+  "title": "青色烟雨",
   "desc": "茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
   "link": "https://notes.fe-mm.com",
   "icon": "https://notes.fe-mm.com/logo.png"
