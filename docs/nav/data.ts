@@ -129,11 +129,23 @@ export const NAV_DATA: NavData[] = [
         desc: '四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列',
         link: 'https://github.com/mqyqingfeng/Blog',
       },
+      {
+        icon: '/icons/mqyqingfeng.jpeg',
+        title: '程序员那些事',
+        desc: 'AI',
+        link: 'https://www.flydean.com/',
+      },
     ],
   },
   {
     title: 'AI 导航',
     items: [
+      {
+        icon: '/icons/mqyqingfeng.jpeg',
+        title: 'Stable Diffusion 法术解析',
+        desc: '从 Stable Diffusion 生成的图片读取 prompt / Stable Diffusion 模型解析',
+        link: 'https://spell.novelai.dev/',
+      },
       {
         badge: '对话',
         icon: '/icons/chatgpt.png',
