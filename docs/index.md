@@ -10,16 +10,11 @@ hero:
     src: /logo.png
     alt: 青色烟雨
   actions:
-    - text: 前端物语
-      link: /fe/es6/
-    - text: 前端导航
+    - text: 导航
       link: /nav
       theme: alt
-    - text: 日常笔记
-      link: /daily-notes/
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
-      theme: alt
+    - text: 前端物语
+      link: /fe/es6/
 features:
   - icon: 📖
     title: 前端物语
@@ -76,15 +71,15 @@ import MFriends from './home/MFriends.vue'
 
 - 网站名称: **青色烟雨**
 - 网站描述: **茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
-- 网站地址：**<https://notes.fe-mm.com>**
-- 网站图标：**<https://notes.fe-mm.com/logo.png>**
+- 网站地址：**<https://diny.vip>**
+- 网站图标：**<https://diny.vip/logo.png>**
 
 ```json
 {
   "title": "青色烟雨",
   "desc": "茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
-  "link": "https://notes.fe-mm.com",
-  "icon": "https://notes.fe-mm.com/logo.png"
+  "link": "https://diny.vip",
+  "icon": "https://diny.vip/logo.png"
 }
 ```
 
