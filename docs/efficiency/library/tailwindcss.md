@@ -30,9 +30,9 @@ module.exports = {
   mode: 'jit',
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
+  plugins: [],
 }
 ```
 
@@ -166,8 +166,8 @@ module.exports = {
   // ...其他配置
   plugins: [
     // ...其他插件
-    require('@tailwindcss/line-clamp')
-  ]
+    require('@tailwindcss/line-clamp'),
+  ],
 }
 ```
 
@@ -199,8 +199,8 @@ module.exports = {
   // ...其他配置
   plugins: [
     // ...其他插件
-    require('@tailwindcss/forms')
-  ]
+    require('@tailwindcss/forms'),
+  ],
 }
 ```
 
@@ -223,24 +223,24 @@ const plugin = require('tailwindcss/plugin')
 const flexCenterBaseStyles = {
   display: 'flex',
   'justify-content': 'center',
-  'align-items': 'center'
+  'align-items': 'center',
 }
 
 module.exports = {
   mode: 'jit',
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
-    extend: {}
+    extend: {},
   },
   plugins: [
     /* flex 居中 */
     plugin(function ({ addUtilities }) {
       addUtilities({
         '.flex-row-center': flexCenterBaseStyles,
-        '.flex-col-center': { ...flexCenterBaseStyles, 'flex-direction': 'column' }
+        '.flex-col-center': { ...flexCenterBaseStyles, 'flex-direction': 'column' },
       })
-    })
-  ]
+    }),
+  ],
 }
 ```
 
@@ -259,7 +259,7 @@ pnpm add -D @femm/tailwind-config
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  presets: [require('@femm/tailwind-config')]
+  presets: [require('@femm/tailwind-config')],
 }
 ```
 
@@ -305,8 +305,8 @@ it('tailwindcss presets config', () => {
   postcss([
     require('tailwindcss')({
       content: [{ raw: `flex z-[1996]` }],
-      presets: [require('../lib/index')]
-    })
+      presets: [require('../lib/index')],
+    }),
   ])
     /* @tailwind utilities 是 tailwindcss 的语法 */
     .process('@tailwind utilities', { from: undefined })
