@@ -35,7 +35,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: 'Flutter',
-    link: '##',
+    link: '/me',
   },
   {
     text: '关于我',
