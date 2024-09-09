@@ -14,6 +14,6 @@ export const head: HeadConfig[] = [
   ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
   [
     'script',
-    { src: isDevelopment ? '' : 'https://hm.baidu.com/hm.js?8092fab2f2adfc7938ba5b8885aef5b4' }
-  ]
+    { src: isDevelopment ? '' : 'https://hm.baidu.com/hm.js?662ad0425a4c00e925ee0eeded1c40b1' },
+  ],
 ]
