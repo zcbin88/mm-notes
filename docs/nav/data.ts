@@ -175,6 +175,18 @@ export const NAV_DATA: NavData[] = [
         title: 'Stable Diffusion',
         link: 'https://stablediffusionweb.com',
       },
+      {
+        badge: '对话',
+        icon: 'https://statics.moonshot.cn/kimi-chat/favicon.ico',
+        title: 'Kimi',
+        link: 'https://kimi.moonshot.cn/',
+      },
+      {
+        badge: '对话',
+        icon: 'https://chatglm.cn/img/icons/favicon-32x32.png',
+        title: '智谱清言',
+        link: 'https://chatglm.cn/',
+      },
     ],
   },
   {
