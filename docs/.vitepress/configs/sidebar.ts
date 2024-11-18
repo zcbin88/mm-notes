@@ -7,16 +7,7 @@ const sidebarDailyNotes: DefaultTheme.SidebarItem[] =
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/efficiency/': [
     {
-      text: 'Git 相关',
-      collapsed: false,
-      items: [
-        { text: 'Git 相关技巧', link: '/efficiency/git/' },
-        { text: 'Git 命令清单', link: '/efficiency/git/command' },
-        { text: 'Git 提交规范', link: '/efficiency/git/style' },
-      ],
-    },
-    {
-      text: '软件推荐与配置',
+      text: '软件推荐',
       // collapsed: false,
       items: [
         { text: '跨平台软件', link: '/efficiency/software/cross-platform' },

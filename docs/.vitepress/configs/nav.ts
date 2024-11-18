@@ -11,10 +11,6 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '提效工具',
     items: [
       {
-        text: 'Git工具',
-        items: [{ text: 'Git技巧', link: '/efficiency/git/' }],
-      },
-      {
         text: '工具推荐',
         items: [
           { text: '跨平台软件', link: '/efficiency/software/cross-platform' },
