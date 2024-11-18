@@ -5,20 +5,6 @@ const sidebarDailyNotes: DefaultTheme.SidebarItem[] =
   fs.readJSONSync('./scripts/daily-notes.json', { throws: false }) || []
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/latex/': [
-    {
-      text: '语法入门',
-      items: [
-        { text: '数据类型', link: '/latex/one' },
-        { text: '引用类型的拷贝', link: '/latex/two' },
-      ],
-    },
-    {
-      text: '高级进阶',
-      items: [{ text: '继承', link: '/latex/one' }],
-    },
-  ],
-
   '/efficiency/': [
     {
       text: 'Git 相关',

@@ -4,13 +4,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '导航', link: '/nav', activeMatch: '^/nav' },
   {
     text: 'Latex',
-    items: [
-      { text: '首页', link: '/latex/' },
-      {
-        items: [{ text: 'One', link: '/latex/one' }],
-      },
-      { text: 'Two', link: '/latex/two' },
-    ],
+    link: '/latex/',
     activeMatch: '^/latex',
   },
   {
