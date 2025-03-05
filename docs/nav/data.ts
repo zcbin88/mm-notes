@@ -189,6 +189,29 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+    {
+    title: '图片工具',
+    items: [
+      {
+        icon: 'https://tinypng.com/images/apple-touch-icon.png',
+        title: 'TinyPNG',
+        desc: '在线图片压缩工具',
+        link: 'https://tinypng.com',
+      },
+      {
+        icon: 'https://emoji.muan.co/appicon.png',
+        title: 'Emoji searcher',
+        desc: 'Emoji 表情大全',
+        link: 'https://emoji.muan.co/',
+      },
+      {
+        icon: 'https://www.profilepicture.ai/favicon.ico',
+        title: '圆形头像',
+        desc: '免费制作圆形头像',
+        link: 'https://www.profilepicture.ai/free-pfp-maker/#quotemaker',
+      },
+    ],
+  },
   {
     title: 'Diny导航',
     items: [
