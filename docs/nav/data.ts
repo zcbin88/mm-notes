@@ -206,7 +206,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://www.profilepicture.ai/favicon.ico',
-        title: '圆形头像',
+        title: '圆形头像设计',
         desc: '免费制作圆形头像',
         link: 'https://www.profilepicture.ai/free-pfp-maker/#quotemaker',
       },
